@@ -1,0 +1,77 @@
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Bungee Inline', cursive;
+        }
+        
+        #banner {
+            background: url("images/abc.png");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+        
+        .banner-text {
+            text-align: center;
+            padding: 120px 150px;
+            color: blue;
+        }
+        
+        .banner-text p {
+            font-size: 100px;
+            font-style: italic;
+        }
+        
+        .banner-btn {
+            margin: 0px 350px;
+        }
+        
+        .banner-btn a {
+            text-align: center;
+            width: 150px;
+            text-decoration: none;
+            display: inline-block;
+            margin: 0px 10px;
+            padding: 20px 0;
+            color: rgb(104, 236, 15);
+            border: rgb(236, 184, 14)(7, 7, 7);
+            transform: color 0.5s;
+            position: relative;
+            z-index: 1;
+            font-weight: bold;
+        }
+        
+        .banner-btn a span {
+            width: 0%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: rgb(216, 6, 6);
+            z-index: -1;
+            transition: 0.5s;
+            position: absolute;
+        }
+        
+        .banner-btn a:hover span {
+            width: 100%;
+        }
+        
+        .banner-btn a:hover {
+            color: #000;
+        }
+        /*xong*/
+        
+        #future {
+            background: url("images/hinh-anh-tinh-yeu-21-7.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+        /*xong*/
+        
+        #cut {
+            background: url("images/anh-buon-27.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
